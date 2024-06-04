@@ -1,0 +1,36 @@
+name: flt_store
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0-191.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+
+# 두칸 띄우기    assets:
+# : 뒤의 값은 한칸 띄우기
+# - 리스트요소는 -으로 표시
+# 수정후에  상단 오른ㅉ고 메뉴에서 [Pub Get] 클릭 - 라이브러리 적용
+# 라이브러리 검색 :  https://pub.dev/  검색
+flutter:
+
+  uses-material-design: true
+
+  # 그림 위치
+  assets:
+    - assets/
+
+
